@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Belanosima";
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+#info-code {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px;
+    gap: 20px;
+}
+
+#info-code h1{
+    -webkit-text-stroke: 1.5px black;
+    color: white;
+}
